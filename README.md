@@ -29,5 +29,6 @@ Esto abrirá automáticamente una nueva pestaña en tu navegador web predetermin
 
 ## 👥 Roles de acceso (Pruebas)
 Para probar el sistema de inicio de sesión SSO simulado, utiliza las siguientes credenciales:
-* **Estudiante:** `user1@alumnos.urjc.es` | Contraseña: `1234`
-* **PTGAS (Administrador):** `admin@urjc.es` | Contraseña: `1234`
+* **Estudiante:** `e.martinez@alumnos.urjc.es` | Contraseña: `123`
+* **PTGAS (Administrador):** `admin.sistemas@urjc.es` | Contraseña: `123`
+* **PDI:** `juan.perez@urjc.es` | Contraseña: `123`
