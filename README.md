@@ -23,7 +23,7 @@ El proyecto utiliza Streamlit para la interfaz gráfica. Para instalarlo, abre t
 ### 3. Ejecución de la aplicación
 Una vez instalada la librería, navega en tu terminal hasta la carpeta donde hayas descargado el archivo `main.py` y ejecuta el siguiente comando:
 
-`streamlit run main.py`
+`streamlit run (nombre fichero ej:"main.py")`
 
 Esto abrirá automáticamente una nueva pestaña en tu navegador web predeterminado (típicamente en `http://localhost:8501`) con la aplicación funcionando.
 
