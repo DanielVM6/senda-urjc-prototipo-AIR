@@ -194,10 +194,13 @@ def main():
         user = st.session_state.usuario_actual
         with st.sidebar:
             st.title("Senda URJC")
-            st.write(f"Usuario: {user.nombre}")
+            st.write(f"👤 {user.nombre} ({user.obtener_rol()})")
             nav = st.radio("Menú", ["🏠 Inicio", "🛡️ Voy Contigo", "🚨 Incidencias", "🛠️ Admin"])
-            if st.button("Salir"):
-                st.session_state.clear()
+
+            st.divider()
+            if st.button("Cerrar Sesión", use_container_width=True):
+                if 'usuario_actual' in st.session_state:
+                    del st.session_state.usuario_actual
                 st.rerun()
 
         if nav == "🏠 Inicio":
